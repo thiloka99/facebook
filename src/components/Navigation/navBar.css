@@ -1,0 +1,93 @@
+.navBarBox{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(33, 33, 124);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top:0;
+}
+
+.navBarLeft{
+    flex:3;
+    font-family: sans-serif;
+}
+
+.navBarCenter{
+    flex:5;
+}
+
+.navBarRight{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.navBarIcon{
+    margin-left: 10px;
+}
+
+.navBarLinks{
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.navBarLink{
+    margin-left: 10px;
+}
+.profilePicImg{
+    width: 38px;
+    height: 32px;
+    object-fit: cover; /*adaala div eka sampurnayenma cover wenawa me image eken */
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+.logo{
+    font-size:  35px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.searchBarBox{
+    widows:  100%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.searchIcon{
+    margin-left: 20px ;
+}
+
+.searchInput{
+    border: none;
+    width: 80%;
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+.navBarIcons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.iconTag{
+    width: 14px;
+    height: 14px;
+    background-color: red;
+    color: rgb(250, 250, 250);
+    position: absolute;
+    border-radius: 50%;
+    justify-content: center;
+}
